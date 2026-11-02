@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CamHeadTracker</string>
+    <string name="licenses">Open-source licenses</string>
+    <string name="close">Close</string>
+
+    <string name="section_connection">Connection</string>
+    <string name="section_camera">Camera</string>
+    <string name="section_tracking">Tracking</string>
+
+    <string name="host_hint">PC IP address</string>
+    <string name="port_hint">Port</string>
+    <string name="start">Start sending</string>
+    <string name="stop">Stop sending</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="calibrating">Look at your screen… %d</string>
+    <string name="calibrated">Calibrated</string>
+
+    <string name="show_image">Camera image</string>
+    <string name="show_points">Tracking points</string>
+
+    <string name="frame_rate">Frame rate</string>
+    <string name="fps_auto">Auto (brighter, slows in dim light)</string>
+    <string name="fps_fixed">%d fps</string>
+    <string name="fps_up_to">Up to %d fps</string>
+    <string name="resolution">Resolution</string>
+    <string name="resolution_hint">Higher tracks farther away, costs more CPU.</string>
+    <string name="exposure">Camera exposure: %s EV</string>
+    <string name="exposure_hint">Works in good light. In a dim room the camera is already at its limit; use Image brightening or a lower frame rate.</string>
+    <string name="exposure_unsupported">Camera exposure: not supported</string>
+    <string name="boost">Image brightening: %s</string>
+    <string name="boost_off">off</string>
+
+    <string name="smoothing">Smoothing: %s</string>
+    <string name="smoothing_off">off (raw)</string>
+    <string name="axes">Axes</string>
+    <string name="axis_send">Send</string>
+    <string name="axis_invert">Invert</string>
+
+    <string name="no_face">No face</string>
+    <string name="live">%1$.0f fps · %2$s</string>
+    <string name="sending">sending to %s</string>
+    <string name="not_sending">not sending</string>
+    <string name="camera_denied">Camera permission is needed for head tracking.</string>
+</resources>

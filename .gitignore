@@ -1,0 +1,13 @@
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+.DS_Store
+captures/
+app/src/main/assets/face_landmarker.task
+keystore/
+keystore.properties
+*.jks
+*.keystore
+dist/
